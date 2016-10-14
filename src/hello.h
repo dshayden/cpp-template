@@ -1,4 +1,3 @@
-
 #ifndef HELLO_H
 #define HELLO_H
 
@@ -20,4 +19,3 @@ void hello();
 std::string get_message();
 
 #endif /* end of include guard: HELLO_H */
-

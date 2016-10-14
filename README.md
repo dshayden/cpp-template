@@ -28,7 +28,7 @@ You can add additional source files in `src/CMakeLists.txt` by modifying the lin
 
 Documentation can be generated with
 
-    $ make doc
+    $ make docs
 
 A tutorial on the doxygen syntax can be found [here](http://www.stack.nl/~dimitri/doxygen/manual/docblocks.html).
 
