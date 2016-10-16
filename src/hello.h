@@ -1,7 +1,11 @@
 #ifndef HELLO_H
 #define HELLO_H
 
+#include <algorithm>
+#include <iostream>
+#include <omp.h>
 #include <string>
+#include <vector>
 
 /**
  * \brief Prints the message from get_message()
@@ -9,6 +13,11 @@
  */
 void hello();
 
+/**
+ * \brief Runs a test parfor using OpenMP and counts the # of unique threads.
+ *
+ */
+int ex_parfor();
 
 /**
  * \brief Generates a Hello World message
